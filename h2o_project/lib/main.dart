@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:h2o_project/screens/splash.dart';
 import 'screens/login_screen.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Yoga',
       theme: ThemeData(),
-      home: const LoginScreen(),
+      home: const SplashScreen(),
     );
   }
 }
